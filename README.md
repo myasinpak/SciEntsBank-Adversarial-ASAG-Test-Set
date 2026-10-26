@@ -20,11 +20,8 @@ This repository contains an **evaluation-only adversarial test set** built from 
 | Path | Purpose |
 | --- | --- |
 | `data/adversarial_test.csv` | Public evaluation dataset (1,034 rows) |
-| `DATASET_CARD.md` | Detailed creation, annotation, limitations, and evaluation guidance |
 | `ATTRIBUTION.md` | Acknowledgment of the SciEntsBank / SemEval source data |
 | `LICENSE` | Dataset license information (CC BY-SA 3.0) |
-| `CITATION.cff.template` | Citation metadata template; complete and rename before public release |
-| `scripts/validate_dataset.py` | Optional dataset structure and consistency checks |
 
 ## Dataset columns
 
@@ -83,8 +80,6 @@ Original SciEntsBank / SemEval-2013 Task 7 data are credited in [ATTRIBUTION.md]
 
 ## How to cite
 If you use this dataset in your research, please cite:
-
-This dataset: Use the citation information provided in the CITATION.cff file or the "Cite this repository" option on GitHub.
 
 The original SciEntsBank dataset: Cite the original SemEval-2013 Task 7 publication. Bibliographic details are provided in ATTRIBUTION.md.
 
