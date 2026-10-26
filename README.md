@@ -73,9 +73,7 @@ print(rows[0]['adversarial_answer'])
 Original SciEntsBank / SemEval-2013 Task 7 data are credited in [ATTRIBUTION.md](ATTRIBUTION.md). The source dataset is distributed as **Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)**; this dataset release uses that same license to preserve source attribution and ShareAlike obligations. See [LICENSE](LICENSE). Source: https://github.com/myrosia/semeval-2013-task7
 
 ## How to cite
-If you use this dataset in your research, please cite:
-
-The original SciEntsBank dataset: Cite the original SemEval-2013 Task 7 publication. Bibliographic details are provided in ATTRIBUTION.md.
+If you use this dataset in your research, please acknowledge this repository and cite the original SciEntsBank / SemEval-2013 Task 7 publication (see ATTRIBUTION.md).
 
 A research article describing the construction and evaluation of this adversarial test set is currently being prepared. Its bibliographic information will be added here once published.
 
