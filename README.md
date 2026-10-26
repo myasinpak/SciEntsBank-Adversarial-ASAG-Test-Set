@@ -19,7 +19,7 @@ This repository contains an **evaluation-only adversarial test set** built from 
 
 | Path | Purpose |
 | --- | --- |
-| `data/adversarial_test.csv` | Public evaluation dataset (1,034 rows) |
+| `data/adversarial_test.csv` | Adversarial evaluation dataset (1,034 rows) |
 | `ATTRIBUTION.md` | Acknowledgment of the SciEntsBank / SemEval source data |
 | `LICENSE` | Dataset license information (CC BY-SA 3.0) |
 
@@ -66,12 +66,6 @@ print(rows[0]['answer_id'])     # A0001
 print(rows[0]['adversarial_answer'])
 
 # The ground-truth label for every row is the string 'incorrect'.
-```
-
-Check the data using:
-
-```bash
-python scripts/validate_dataset.py
 ```
 
 ## Data source and license
